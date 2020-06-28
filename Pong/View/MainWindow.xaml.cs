@@ -15,8 +15,7 @@ namespace PongGame
             RightPad.DataContext = _rightPad;
             LeftPad.DataContext = _leftPad;
             Ball.DataContext = _ball;
-            label4.DataContext = _rightPad;
-
+      
             var timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromMilliseconds(10);
             timer.Start();
